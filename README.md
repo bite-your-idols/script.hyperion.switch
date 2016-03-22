@@ -1,10 +1,12 @@
-# hyperion-switch
+[EN]
+DESCRIPTION:
+========
 Toggle on/off hyperion in OpenELEC with an addon.
 
-
+[ES]
 DESCRIPCIÓN:
 ========
-Sistema para apagar los Leds controlados por Hyperion en una Raspberry Pi desde el menu de Kodi y desde el mando a distancia de tu TV.
+Sistema para apagar los Leds controlados por [Hyperion](https://github.com/tvdzwan/hyperion) en una Raspberry Pi desde el menu de Kodi y desde el mando a distancia de tu TV.
 El sistema ha sido probado en OpeneELEC 4, 5 y 6.
 
 INSTRUCCIONES:
