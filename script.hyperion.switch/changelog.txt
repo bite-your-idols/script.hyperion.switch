@@ -1,0 +1,4 @@
+v1.0.1 
+- Move switch.sh script to addon dir
+v1.0.0 
+- Initial Release
