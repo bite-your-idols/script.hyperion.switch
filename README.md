@@ -15,6 +15,8 @@ INSTRUCCIONES:
 
 Despues de instalar hyperion segun las [instrucciones para OpenELEC](https://github.com/tvdzwan/hyperion/wiki/Installation-on-RPi-with-OpenELEC), instalar el addon desde el zip.
 Podemos modificar el archivo "remote.xml" para añadir un acceso directo al encendido/apagado desde tu propio mando a distancia. Elegis el boton y le asignais el codigo:
-XBMC.System.Exec("/storage/.kodi/addons/script.hyperion.switch/bin/switch.sh")
+```
+XBMC.System.Exec("/storage/.kodi/addons/script.hyperion.switch/bin/switch.sh")`
+```
 
 + información: http://www.elotrolado.net/hilo_hilo-oficial-movimiento-ambilight-eol_1036973
