@@ -1,8 +1,12 @@
 import xbmcaddon
 import xbmcgui
 import os
+import os.path
  
 addon       = xbmcaddon.Addon()
 addonname   = addon.getAddonInfo('name')
 
-os.system("/storage/.kodi/addons/script.hyperion.switch-master/bin/switch.sh")
+script_file = os.path.realpath(__file__)
+directory = os.path.dirname(script_file)
+
+os.system("sh "+directory+"bin/switch.sh "+directory)
