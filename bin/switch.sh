@@ -1,5 +1,6 @@
 #!/bin/sh
-chmod a+x /storage/.kodi/addons/script.hyperion.switch-master/bin/*
+ADDON_DIRECTORY=$1
+# chmod a+x $1/bin/*
 SERVICE='hyperiond'
 if ps | grep -v grep | grep $SERVICE > /dev/null
 then
