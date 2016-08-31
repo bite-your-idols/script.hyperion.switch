@@ -16,7 +16,7 @@ INSTRUCCIONES:
 Despues de instalar hyperion segun las [instrucciones para OpenELEC](https://hyperion-project.org/wiki/2-Installation), instalar el addon [desde el zip](https://github.com/bite-your-idols/script.hyperion.switch/releases/download/v0.0.1/script.hyperion.switch.v0.0.1.zip).
 Podemos modificar el archivo "remote.xml" para añadir un acceso directo al encendido/apagado desde tu propio mando a distancia. Elegis el boton y le asignais el codigo:
 ```
-XBMC.System.Exec("/storage/.kodi/addons/script.hyperion.switch-master/bin/switch.sh")`
+XBMC.System.Exec("/storage/.kodi/addons/script.hyperion.switch/bin/switch.sh")`
 ```
 
 > Si no te funciona el script prueba a darle permisos de ejecucion y lectura al archivo /storage/.kodi/addons/script.hyperion.switch-master/bin/switch.sh
