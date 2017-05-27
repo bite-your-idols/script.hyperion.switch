@@ -12,7 +12,7 @@ Sistema para apagar/encender los Leds controlados por [Hyperion](https://github.
 
 INSTRUCCIONES:
 
-Despues de instalar el addon Hyperion desde el repositorio official de LibreELEC instalar el addon [desde el zip]https://github.com/bite-your-idols/script.hyperion.switch/releases/latest).
+Despues de instalar el addon Hyperion desde el repositorio official de LibreELEC instalar el addon [desde el zip](https://github.com/bite-your-idols/script.hyperion.switch/releases/latest).
 
 Podemos modificar el archivo "remote.xml" para añadir un acceso directo al encendido/apagado desde tu propio mando a distancia. Elegis el boton y le asignais el codigo:
 ```
