@@ -2,18 +2,18 @@
 hyperion-switch
 ========
 
-Toggle on/off hyperion in OpenELEC with an addon.
+Toggle on/off hyperion in LibreELEC with an addon.
 
 
 
 DESCRIPCIÓN:
 
-Sistema para apagar los Leds controlados por [Hyperion](https://github.com/tvdzwan/hyperion) en una Raspberry Pi desde el menu de Kodi y desde el mando a distancia de tu TV.
-El sistema ha sido probado en OpeneELEC 4, 5, 6, 7 y LibreELEC 7.
+Sistema para apagar/encender los Leds controlados por [Hyperion](https://github.com/tvdzwan/hyperion) en una Raspberry Pi desde el menu de Kodi y desde el mando a distancia de tu TV en sistemas corriendo LibreELEC.
 
 INSTRUCCIONES:
 
-Despues de instalar hyperion segun las [instrucciones para OpenELEC](https://hyperion-project.org/wiki/2-Installation), instalar el addon [desde el zip](https://github.com/bite-your-idols/script.hyperion.switch/releases/download/v0.0.1/script.hyperion.switch.v0.0.1.zip).
+Despues de instalar el addon Hyperion desde el repositorio official de LibreELEC instalar el addon [desde el zip]https://github.com/bite-your-idols/script.hyperion.switch/releases/latest).
+
 Podemos modificar el archivo "remote.xml" para añadir un acceso directo al encendido/apagado desde tu propio mando a distancia. Elegis el boton y le asignais el codigo:
 ```
 XBMC.System.Exec("/storage/.kodi/addons/script.hyperion.switch-master/bin/switch.sh")`
