@@ -16,7 +16,11 @@ Despues de instalar el addon Hyperion desde el repositorio official de LibreELEC
 
 Podemos modificar el archivo "remote.xml" para añadir un acceso directo al encendido/apagado desde tu propio mando a distancia. Elegis el boton y le asignais el codigo:
 ```
-XBMC.System.Exec("/storage/.kodi/addons/script.hyperion.switch-master/bin/switch.sh")`
+XBMC.System.Exec("/storage/.kodi/addons/script.hyperion.switch/bin/switch.sh")`
+```
+O directamente llamar al addon usando un comando por ssh:
+```
+kodi-send --action=RunAddon(script.hyperion.switch)
 ```
 
 > Si no te funciona el script prueba a darle permisos de ejecucion y lectura al archivo /storage/.kodi/addons/script.hyperion.switch-master/bin/switch.sh
