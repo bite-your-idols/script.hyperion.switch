@@ -1,5 +1,5 @@
 
-hyperion-switch
+🌈 hyperion-switch
 ========
 
 Toggle on/off hyperion in LibreELEC with an addon.
