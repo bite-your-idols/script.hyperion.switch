@@ -2,7 +2,7 @@
 Hyperion Switch
 ========
 
-Toggle on/off hyperion in LibreELEC with an addon.
+Toggle on/off hyperion in Kodi with an addon.
 
 
 Install:
