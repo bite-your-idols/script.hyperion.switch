@@ -7,6 +7,6 @@ then
 killall hyperiond 2>/dev/null
 kodi-send --action=Notification"(Hyperion,Disabled,2000,/storage/.kodi/addons/script.hyperion.switch/icon.png)"
 else
-/storage/.config/autostart.sh > /dev/null 2>&1 &
+/storage/hyperion/bin/hyperiond.sh /storage/.config/hyperion.config.json > /storage/logfiles/hyperion.log 2>&1 &
 kodi-send --action=Notification"(Hyperion,Enabled,2000,/storage/.kodi/addons/script.hyperion.switch/icon.png)"
 fi
